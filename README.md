@@ -6,7 +6,7 @@ A Minecraft implementation of the classic Snake game using minescript.
 ## Key Features
 - Direction vector calculation from yaw and pitch and cross-product along y axis for dynamic grid rendering.
 
-## Controls (Note: Current setup may not work with non-Spanish keyboards)
+## Controls 
 - **Move Up**: Up Arrow
 - **Move Down**: Down Arrow
 - **Move Left**: Left Arrow
