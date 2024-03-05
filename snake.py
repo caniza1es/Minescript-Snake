@@ -127,13 +127,13 @@ def draw(ply,G):
 
 def on_key_press(event):
     key = event.name
-    if key == "flecha arriba":
+    if key in ["up", "flecha arriba"]:
         game.heading = "up"
-    elif key == "flecha abajo":
+    elif key in ["down", "flecha abajo"]:
         game.heading = "down"
-    elif key == "flecha izquierda":
+    elif key in ["left", "flecha izquierda"]:
         game.heading = "left"
-    elif key == "flecha derecha":
+    elif key in ["right", "flecha derecha"]:
         game.heading = "right"
     elif key == "k":
         sys.exit()
